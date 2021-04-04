@@ -1,5 +1,5 @@
 {
-  "name": "release-it",
+  "name": "@buildinglink/release-it",
   "version": "14.5.1",
   "description": "Generic CLI tool to automate versioning and package publishing related tasks.",
   "keywords": [
@@ -28,10 +28,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/release-it/release-it.git"
+    "url": "https://github.com/BuildingLink/release-it.git"
   },
-  "homepage": "https://github.com/release-it/release-it#readme",
-  "bugs": "https://github.com/release-it/release-it/issues",
+  "homepage": "https://github.com/BuildingLink/release-it#readme",
   "bin": {
     "release-it": "bin/release-it.js"
   },
@@ -107,5 +106,8 @@
   },
   "engines": {
     "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
